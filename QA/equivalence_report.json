@@ -1,0 +1,403 @@
+{
+  "status": "PASS",
+  "runtime": {
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.13.0+cpu",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 4
+  },
+  "scope": "Code equivalence only; no retraining or metric reproduction",
+  "copied_sources": [
+    {
+      "file": "backbone.py",
+      "sha256": "b3a38c7fd99557cb372e2d88fd9aa0e550340df857b82dfe01bd8bc94e1c1336"
+    },
+    {
+      "file": "model.py",
+      "sha256": "484ab6d1b5e3569bdb9968c2acefb6b7d91103d50107cc8d55d340770492c7f8"
+    },
+    {
+      "file": "modules.py",
+      "sha256": "883675ac122139ac001e5a3b62ec629075b23605c6293e5e5e29ee4c9b5ae634"
+    }
+  ],
+  "initialization": [
+    {
+      "arm": "control",
+      "all_state_tensors_equal": true
+    },
+    {
+      "arm": "da",
+      "all_state_tensors_equal": true
+    },
+    {
+      "arm": "sk",
+      "all_state_tensors_equal": true
+    },
+    {
+      "arm": "joint",
+      "all_state_tensors_equal": true
+    }
+  ],
+  "checkpoints": [
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed42_public_control_best.pt",
+      "dataset": "Kvasir",
+      "seed": 42,
+      "variant": "public_control",
+      "sha256": "283c87e7057a75dcdf4bf97ea0a3c8cb8241a3219bef5d6cead7bf8e99619458",
+      "parameters": 25041606,
+      "nonzero_gate_count": 0,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0,
+        "synthetic_256": 0.0,
+        "real_256": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed42_public_nmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 42,
+      "variant": "public_nmap",
+      "sha256": "c15fde02aee18422f88627127f1defb6c391e6844e290513160bd4d57fcbaa47",
+      "parameters": 25043118,
+      "nonzero_gate_count": 4,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed42_public_lmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 42,
+      "variant": "public_lmap",
+      "sha256": "4abacacdc911bd3fcadfd5ba8ec03b9d5a9e551f1836fad1a6eb47e6ee358751",
+      "parameters": 25044558,
+      "nonzero_gate_count": 4,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed42_public_nmap_lmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 42,
+      "variant": "public_nmap_lmap",
+      "sha256": "8d17f4a4a4a36c616211314f37eda45c484d4341ef280a09d08d279ac6e83d7e",
+      "parameters": 25046070,
+      "nonzero_gate_count": 8,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0,
+        "synthetic_256": 0.0,
+        "real_256": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed43_public_control_best.pt",
+      "dataset": "Kvasir",
+      "seed": 43,
+      "variant": "public_control",
+      "sha256": "ce70e3d5dffbefdf5b092da97ffe08773bc98bc800cc8d9e4a17426cfb94e508",
+      "parameters": 25041606,
+      "nonzero_gate_count": 0,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed43_public_nmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 43,
+      "variant": "public_nmap",
+      "sha256": "b416beceec862a9d9cd30cda6250645cfbbe5318ad9fdfbe658ec65a0e147ba3",
+      "parameters": 25043118,
+      "nonzero_gate_count": 4,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed43_public_lmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 43,
+      "variant": "public_lmap",
+      "sha256": "7e040628141ce73eebf8e2cc8f0a87562d801f91e0b3297d10fdd2755fb78097",
+      "parameters": 25044558,
+      "nonzero_gate_count": 4,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed43_public_nmap_lmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 43,
+      "variant": "public_nmap_lmap",
+      "sha256": "cd418a3bf361d8dba8ce16460c1d5e4faf5b70d5cfb23db8c13e264584e72505",
+      "parameters": 25046070,
+      "nonzero_gate_count": 8,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed44_public_control_best.pt",
+      "dataset": "Kvasir",
+      "seed": 44,
+      "variant": "public_control",
+      "sha256": "93a8ed899c716d3cd4b0c2c43924c36b641e638283e0db55ba2dbdab852797a0",
+      "parameters": 25041606,
+      "nonzero_gate_count": 0,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed44_public_nmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 44,
+      "variant": "public_nmap",
+      "sha256": "29f0cb02265ba2d397e36f8c38f04ad66a293751b520492da83abe9c7c74f31d",
+      "parameters": 25043118,
+      "nonzero_gate_count": 4,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed44_public_lmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 44,
+      "variant": "public_lmap",
+      "sha256": "610566a3f1bc402be8d4d948ce37bc4264d3f55a8893d94513ea4f208eb9e205",
+      "parameters": 25044558,
+      "nonzero_gate_count": 4,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed44_public_nmap_lmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 44,
+      "variant": "public_nmap_lmap",
+      "sha256": "6991841621ebeb36e44f247cbc06951b3d17ee38baab828ecfd52d8b35a28441",
+      "parameters": 25046070,
+      "nonzero_gate_count": 8,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/ClinicDB_seed42_public_control_best.pt",
+      "dataset": "ClinicDB",
+      "seed": 42,
+      "variant": "public_control",
+      "sha256": "24c20390e727378e31f13bba0a61f80e402a59f68ad60fd40fe626617f8c2bca",
+      "parameters": 25041606,
+      "nonzero_gate_count": 0,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/ClinicDB_seed42_public_nmap_lmap_best.pt",
+      "dataset": "ClinicDB",
+      "seed": 42,
+      "variant": "public_nmap_lmap",
+      "sha256": "d035e5ab38ad6226591a5357969e3634f1b280c66259fc49bf0e9ca1376faa0b",
+      "parameters": 25046070,
+      "nonzero_gate_count": 8,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/ClinicDB_seed43_public_control_best.pt",
+      "dataset": "ClinicDB",
+      "seed": 43,
+      "variant": "public_control",
+      "sha256": "84f17145bd2094857dae78a06d63226e1b7e52c5217a85a1cb1c300c52597200",
+      "parameters": 25041606,
+      "nonzero_gate_count": 0,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/ClinicDB_seed43_public_nmap_lmap_best.pt",
+      "dataset": "ClinicDB",
+      "seed": 43,
+      "variant": "public_nmap_lmap",
+      "sha256": "f7421ab70cb88bf0b1388dfd427ea2fbcca6707ede16f48ac5d3520d3689329b",
+      "parameters": 25046070,
+      "nonzero_gate_count": 8,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/ClinicDB_seed44_public_control_best.pt",
+      "dataset": "ClinicDB",
+      "seed": 44,
+      "variant": "public_control",
+      "sha256": "9b0c86a10a0346a17496eb3d0921ff4e44a98ff7f325c6a5ea00e62038dc3e10",
+      "parameters": 25041606,
+      "nonzero_gate_count": 0,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/ClinicDB_seed44_public_nmap_lmap_best.pt",
+      "dataset": "ClinicDB",
+      "seed": 44,
+      "variant": "public_nmap_lmap",
+      "sha256": "caf5f3a1d70632f5fb592b763123bbec96d4b8feb16db66d01ec3166b521394e",
+      "parameters": 25046070,
+      "nonzero_gate_count": 8,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/新增/原正式追加seed45_seed45_public_control_best.pt",
+      "dataset": "Kvasir",
+      "seed": 45,
+      "variant": "public_control",
+      "sha256": "89842c46c77afec706e653474a33510719b4e9430a4ebe51096bf6bfae8a5413",
+      "parameters": 25041606,
+      "nonzero_gate_count": 0,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/新增/原正式追加seed45_seed45_public_nmap_lmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 45,
+      "variant": "public_nmap_lmap",
+      "sha256": "3fbf2298db36fe3bd1a2613e2ef4bc9494d5b5b8cd53a08752a74385e11383ec",
+      "parameters": 25046070,
+      "nonzero_gate_count": 8,
+      "max_abs_output_differences": {
+        "synthetic_64": 0.0,
+        "real_64": 0.0
+      },
+      "masks_equal": true
+    }
+  ],
+  "nonzero_gate_training": [
+    {
+      "arm": "control",
+      "output_equal": true,
+      "input_gradient_equal": true,
+      "parameter_gradients_equal": 267,
+      "buffers_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "arm": "da",
+      "output_equal": true,
+      "input_gradient_equal": true,
+      "parameter_gradients_equal": 303,
+      "buffers_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "arm": "sk",
+      "output_equal": true,
+      "input_gradient_equal": true,
+      "parameter_gradients_equal": 343,
+      "buffers_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "arm": "joint",
+      "output_equal": true,
+      "input_gradient_equal": true,
+      "parameter_gradients_equal": 379,
+      "buffers_equal": true,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "current_model": "GRC-PolypNet",
+  "compatibility_alias_identical": true,
+  "original_r4_sha256": "af1da5ce8f9e48597210eca8429684e8cea0cbe75efeb4e91f93bec3f98ac207",
+  "release_sources": {
+    "backbone.py": "b3a38c7fd99557cb372e2d88fd9aa0e550340df857b82dfe01bd8bc94e1c1336",
+    "crcm_net.py": "49c0dbc4d61c168efea394d1796b8ff60a948c68e0a8f4b65af4536a1129a71c",
+    "grc_polypnet.py": "7fcfce406af15b78e496bbcf6b5325f4dc76b40c01f6f3e7a062c6a562f97f2f",
+    "model.py": "484ab6d1b5e3569bdb9968c2acefb6b7d91103d50107cc8d55d340770492c7f8",
+    "modules.py": "883675ac122139ac001e5a3b62ec629075b23605c6293e5e5e29ee4c9b5ae634",
+    "r4_model.py": "df6faa6134bcd4027089500db2fe3592d5e8518f83fcd022507deb98fc9daba0",
+    "residual_ops.py": "3fbf6f1751075d41e25ab15917c24de411975fe2bb116cf7dbd62ef660bd50cb",
+    "verify_equivalence.py": "587f10c24bd23208e915b72abcf3b2e152184217d98508f71891204049aa4596"
+  },
+  "manifest_sha256": "83fae76cd126923bcb13e2074ef6b3497b3c9a9d67559d4ba9e2fbfade9580c3",
+  "historical_locks": {
+    "Kvasir": {
+      "path": "04_实验依据与权重/02_逐图指标与锁/原正式/kvasir_supervised_test/manifest.json",
+      "sha256": "27885c6cefbc09cb148e37637145a62d6c49533ff5205d70460b765216d2238f"
+    },
+    "ClinicDB": {
+      "path": "04_实验依据与权重/02_逐图指标与锁/原正式/clinicdb_supervised_test/manifest.json",
+      "sha256": "6dbea5736933d003887d470b3aa637b4e4adcca841da217b86526fe96eac02ce"
+    },
+    "seed45": {
+      "path": "04_实验依据与权重/02_逐图指标与锁/新增/r4_test_20260914_051511_362263/manifest.json",
+      "sha256": "fbaf0f40cc1629431bb255f9c7c2c7fd123eb02aa30b8f9c555fe711194a54ae"
+    }
+  },
+  "real_image": {
+    "zip_member": "Kvasir/images/cju0qkwl35piu0993l0dewei2.png",
+    "sha256": "12ed17f9e5a207a9e0fc6f8055c0f2aa91d7cca67001ffb5aa306585f2d756d6",
+    "role": "One code-regression input; no label/metric evaluation"
+  },
+  "invalid_arm_rejected": true,
+  "rejected_other_campaigns": [
+    "DA_v1_seed42_public_nmap_best.pt",
+    "LMAP_v2_seed42_public_lmap_selector_best.pt"
+  ],
+  "elapsed_seconds": 44.7
+}

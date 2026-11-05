@@ -1,0 +1,145 @@
+{
+  "campaign": "original-matrix-plus-seed45",
+  "checkpoints": [
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed42_public_control_best.pt",
+      "dataset": "Kvasir",
+      "seed": 42,
+      "variant": "public_control",
+      "sha256": "283c87e7057a75dcdf4bf97ea0a3c8cb8241a3219bef5d6cead7bf8e99619458"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed42_public_nmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 42,
+      "variant": "public_nmap",
+      "sha256": "c15fde02aee18422f88627127f1defb6c391e6844e290513160bd4d57fcbaa47"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed42_public_lmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 42,
+      "variant": "public_lmap",
+      "sha256": "4abacacdc911bd3fcadfd5ba8ec03b9d5a9e551f1836fad1a6eb47e6ee358751"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed42_public_nmap_lmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 42,
+      "variant": "public_nmap_lmap",
+      "sha256": "8d17f4a4a4a36c616211314f37eda45c484d4341ef280a09d08d279ac6e83d7e"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed43_public_control_best.pt",
+      "dataset": "Kvasir",
+      "seed": 43,
+      "variant": "public_control",
+      "sha256": "ce70e3d5dffbefdf5b092da97ffe08773bc98bc800cc8d9e4a17426cfb94e508"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed43_public_nmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 43,
+      "variant": "public_nmap",
+      "sha256": "b416beceec862a9d9cd30cda6250645cfbbe5318ad9fdfbe658ec65a0e147ba3"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed43_public_lmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 43,
+      "variant": "public_lmap",
+      "sha256": "7e040628141ce73eebf8e2cc8f0a87562d801f91e0b3297d10fdd2755fb78097"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed43_public_nmap_lmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 43,
+      "variant": "public_nmap_lmap",
+      "sha256": "cd418a3bf361d8dba8ce16460c1d5e4faf5b70d5cfb23db8c13e264584e72505"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed44_public_control_best.pt",
+      "dataset": "Kvasir",
+      "seed": 44,
+      "variant": "public_control",
+      "sha256": "93a8ed899c716d3cd4b0c2c43924c36b641e638283e0db55ba2dbdab852797a0"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed44_public_nmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 44,
+      "variant": "public_nmap",
+      "sha256": "29f0cb02265ba2d397e36f8c38f04ad66a293751b520492da83abe9c7c74f31d"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed44_public_lmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 44,
+      "variant": "public_lmap",
+      "sha256": "610566a3f1bc402be8d4d948ce37bc4264d3f55a8893d94513ea4f208eb9e205"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/Kvasir_seed44_public_nmap_lmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 44,
+      "variant": "public_nmap_lmap",
+      "sha256": "6991841621ebeb36e44f247cbc06951b3d17ee38baab828ecfd52d8b35a28441"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/ClinicDB_seed42_public_control_best.pt",
+      "dataset": "ClinicDB",
+      "seed": 42,
+      "variant": "public_control",
+      "sha256": "24c20390e727378e31f13bba0a61f80e402a59f68ad60fd40fe626617f8c2bca"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/ClinicDB_seed42_public_nmap_lmap_best.pt",
+      "dataset": "ClinicDB",
+      "seed": 42,
+      "variant": "public_nmap_lmap",
+      "sha256": "d035e5ab38ad6226591a5357969e3634f1b280c66259fc49bf0e9ca1376faa0b"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/ClinicDB_seed43_public_control_best.pt",
+      "dataset": "ClinicDB",
+      "seed": 43,
+      "variant": "public_control",
+      "sha256": "84f17145bd2094857dae78a06d63226e1b7e52c5217a85a1cb1c300c52597200"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/ClinicDB_seed43_public_nmap_lmap_best.pt",
+      "dataset": "ClinicDB",
+      "seed": 43,
+      "variant": "public_nmap_lmap",
+      "sha256": "f7421ab70cb88bf0b1388dfd427ea2fbcca6707ede16f48ac5d3520d3689329b"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/ClinicDB_seed44_public_control_best.pt",
+      "dataset": "ClinicDB",
+      "seed": 44,
+      "variant": "public_control",
+      "sha256": "9b0c86a10a0346a17496eb3d0921ff4e44a98ff7f325c6a5ea00e62038dc3e10"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/原正式/ClinicDB_seed44_public_nmap_lmap_best.pt",
+      "dataset": "ClinicDB",
+      "seed": 44,
+      "variant": "public_nmap_lmap",
+      "sha256": "caf5f3a1d70632f5fb592b763123bbec96d4b8feb16db66d01ec3166b521394e"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/新增/原正式追加seed45_seed45_public_control_best.pt",
+      "dataset": "Kvasir",
+      "seed": 45,
+      "variant": "public_control",
+      "sha256": "89842c46c77afec706e653474a33510719b4e9430a4ebe51096bf6bfae8a5413"
+    },
+    {
+      "path": "04_实验依据与权重/04_模型权重/新增/原正式追加seed45_seed45_public_nmap_lmap_best.pt",
+      "dataset": "Kvasir",
+      "seed": 45,
+      "variant": "public_nmap_lmap",
+      "sha256": "3fbf2298db36fe3bd1a2613e2ef4bc9494d5b5b8cd53a08752a74385e11383ec"
+    }
+  ]
+}

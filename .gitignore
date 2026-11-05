@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.zip
+*.tar
+*.tar.gz
+data/
+datasets/
+checkpoints/
+runs/
+outputs/
+*.log
+.env
